@@ -1008,6 +1008,12 @@ static bool mmc_sd_card_using_v18(struct mmc_card *card)
 	       (SD_MODE_UHS_SDR50 | SD_MODE_UHS_SDR104 | SD_MODE_UHS_DDR50);
 }
 
+void mmc_sd_go_highspeed(struct mmc_card *card)
+{
+        mmc_sd_switch_hs(card);
+        mmc_set_timing(card->host, MMC_TIMING_SD_HS);
+}
+
 static int sd_write_ext_reg(struct mmc_card *card, u8 fno, u8 page, u16 offset,
 			    u8 reg_data)
 {
