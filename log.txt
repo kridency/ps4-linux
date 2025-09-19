@@ -1,0 +1,333 @@
+./arch/x86/kernel/hpet.c:1216:#define RTC_NUM_INTS		1
+./arch/x86/kernel/hpet.c:1464:		rtc_int_flag |= (RTC_IRQF | (RTC_NUM_INTS << 8));
+./drivers/gpu/drm/amd/display/dc/dcn10/dcn10_optc.h:497:	type OPTC_NUM_OF_INPUT_SEGMENT;\
+./drivers/gpu/drm/amd/display/dc/dcn20/dcn20_optc.c:206:			OPTC_NUM_OF_INPUT_SEGMENT, 0,
+./drivers/gpu/drm/amd/display/dc/dcn20/dcn20_optc.c:249:			OPTC_NUM_OF_INPUT_SEGMENT, 1,
+./drivers/gpu/drm/amd/display/dc/dcn20/dcn20_optc.c:269:			OPTC_NUM_OF_INPUT_SEGMENT, &num_of_input_segments,
+./drivers/gpu/drm/amd/display/dc/dcn20/dcn20_optc.c:278:	/* Work around VBIOS not updating OPTC_NUM_OF_INPUT_SEGMENT */
+./drivers/gpu/drm/amd/display/dc/dcn20/dcn20_optc.h:70:	SF(ODM0_OPTC_DATA_SOURCE_SELECT, OPTC_NUM_OF_INPUT_SEGMENT, mask_sh),\
+./drivers/gpu/drm/amd/display/dc/dcn30/dcn30_optc.c:187:			OPTC_NUM_OF_INPUT_SEGMENT, 0,
+./drivers/gpu/drm/amd/display/dc/dcn30/dcn30_optc.c:242:				OPTC_NUM_OF_INPUT_SEGMENT, 1,
+./drivers/gpu/drm/amd/display/dc/dcn30/dcn30_optc.c:247:				OPTC_NUM_OF_INPUT_SEGMENT, 3,
+./drivers/gpu/drm/amd/display/dc/dcn30/dcn30_optc.h:260:	SF(ODM0_OPTC_DATA_SOURCE_SELECT, OPTC_NUM_OF_INPUT_SEGMENT, mask_sh),\
+./drivers/gpu/drm/amd/display/dc/dcn30/dcn30_optc.h:298:	SF(ODM0_OPTC_DATA_SOURCE_SELECT, OPTC_NUM_OF_INPUT_SEGMENT, mask_sh),\
+./drivers/gpu/drm/amd/display/dc/dcn31/dcn31_optc.c:75:				OPTC_NUM_OF_INPUT_SEGMENT, 1,
+./drivers/gpu/drm/amd/display/dc/dcn31/dcn31_optc.c:80:				OPTC_NUM_OF_INPUT_SEGMENT, 3,
+./drivers/gpu/drm/amd/display/dc/dcn31/dcn31_optc.h:238:	SF(ODM0_OPTC_DATA_SOURCE_SELECT, OPTC_NUM_OF_INPUT_SEGMENT, mask_sh),\
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30437:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30438:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30441:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30442:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30492:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30493:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30496:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30497:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30547:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30548:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30551:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30552:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30602:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30603:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30606:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30607:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30657:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30658:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30661:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30662:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30712:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30713:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30716:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_0_0_sh_mask.h:30717:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27088:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27089:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27092:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27093:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27143:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27144:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27147:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27148:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27198:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27199:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27202:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27203:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27253:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27254:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27257:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27258:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27308:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27309:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27312:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27313:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27363:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27364:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27367:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000001L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_2_1_0_sh_mask.h:27368:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29532:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29533:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29538:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29539:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29591:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29592:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29597:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29598:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29649:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29650:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29655:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29656:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29708:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29709:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29714:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29715:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29767:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29768:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29773:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29774:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29826:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29827:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29832:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_0_sh_mask.h:29833:#define ODM5_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22770:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22771:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22776:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22777:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22829:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22830:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22835:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22836:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22888:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22889:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22894:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22895:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22947:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22948:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22953:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_1_sh_mask.h:22954:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26059:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26060:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26065:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26066:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26118:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26119:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26124:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26125:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26177:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26178:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26183:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26184:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26236:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26237:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26242:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26243:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26295:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26296:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26301:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_2_sh_mask.h:26302:#define ODM4_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14180:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14181:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14186:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14187:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14239:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14240:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x2
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14245:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_0_3_sh_mask.h:14246:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x0000000CL
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29083:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29084:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x8
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29089:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29090:#define ODM0_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x00000300L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29144:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29145:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x8
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29150:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29151:#define ODM1_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x00000300L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29205:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29206:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x8
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29211:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29212:#define ODM2_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x00000300L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29266:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT__SHIFT                                        0x0
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29267:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT__SHIFT                                       0x8
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29272:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_INPUT_SEGMENT_MASK                                          0x00000003L
+./drivers/gpu/drm/amd/include/asic_reg/dcn/dcn_3_1_2_sh_mask.h:29273:#define ODM3_OPTC_DATA_SOURCE_SELECT__OPTC_NUM_OF_OUTPUT_SEGMENT_MASK                                         0x00000300L
+./drivers/irqchip/irq-loongson-liointc.c:22:#define LIOINTC_NUM_PARENT 4
+./drivers/irqchip/irq-loongson-liointc.c:23:#define LIOINTC_NUM_CORES	4
+./drivers/irqchip/irq-loongson-liointc.c:45:	struct liointc_handler_data	handler[LIOINTC_NUM_PARENT];
+./drivers/irqchip/irq-loongson-liointc.c:46:	void __iomem			*core_isr[LIOINTC_NUM_CORES];
+./drivers/irqchip/irq-loongson-liointc.c:56:	int core = get_ebase_cpunum() % LIOINTC_NUM_CORES;
+./drivers/irqchip/irq-loongson-liointc.c:168:	u32 of_parent_int_map[LIOINTC_NUM_PARENT];
+./drivers/irqchip/irq-loongson-liointc.c:169:	int parent_irq[LIOINTC_NUM_PARENT];
+./drivers/irqchip/irq-loongson-liointc.c:184:		for (i = 0; i < LIOINTC_NUM_CORES; i++)
+./drivers/irqchip/irq-loongson-liointc.c:197:		for (i = 0; i < LIOINTC_NUM_CORES; i++)
+./drivers/irqchip/irq-loongson-liointc.c:201:	for (i = 0; i < LIOINTC_NUM_PARENT; i++) {
+./drivers/irqchip/irq-loongson-liointc.c:214:						LIOINTC_NUM_PARENT,
+./drivers/irqchip/irq-loongson-liointc.c:215:						LIOINTC_NUM_PARENT);
+./drivers/irqchip/irq-loongson-liointc.c:222:	for (i = 0; i < LIOINTC_NUM_PARENT; i++)
+./drivers/irqchip/irq-loongson-liointc.c:249:	for (i = 0; i < LIOINTC_NUM_PARENT; i++) {
+./drivers/irqchip/irq-loongson-liointc.c:283:	for (i = 0; i < LIOINTC_NUM_PARENT; i++) {
+./drivers/irqchip/irq-loongson-liointc.c:297:	for (i = 0; i < LIOINTC_NUM_CORES; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/common/wlan_lib.c:6440:	u4share = prAdapter->nicTxReousrce.u4LmacTotalResource/(TC_NUM - 1); /* LMAC. Except TC_4, which is MCU */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/common/wlan_lib.c:6441:	for (idx = TC0_INDEX; idx < TC_NUM; idx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/common/wlan_lib.c:6448:			(prAdapter->nicTxReousrce.u4LmacTotalResource%(TC_NUM - 1)) * NIC_TX_MAX_PAGE_PER_FRAME;
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/common/wlan_lib.c:6456:	for (idx = 0; idx < TC_NUM; idx++)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/common/wlan_lib.c:6468:	for (idx = 0; idx < TC_NUM; idx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/common/wlan_lib.c:6482:	for (idx = 0; idx < TC_NUM; idx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/adapter.h:784:	UINT_32 au4TcPageCount[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:482:	TC_NUM			/* Maximum number of Traffic Classes. */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:486:#define TX_PORT_NUM (TC_NUM + 1)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:488:#define TX_2G_WMM_PORT_NUM (TC_NUM)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:504:	NET_TC_NUM
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:593:	UINT_32 au4TxDonePageCount[TC_NUM];	/* other TC */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:594:	UINT_32 au4PreUsedPageCount[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:599:	UINT_32 au4FreePageCount[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:600:	UINT_32 au4MaxNumOfPage[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:603:	UINT_32 au4FreeBufferCount[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:604:	UINT_32 au4MaxNumOfBuffer[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/nic_tx.h:608:	INT_32 ai4Variation[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:124:#define QM_ACTIVE_TC_NUM                    TC_NUM
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:364:	UINT_32 au4AverageQueLen[TC_NUM - 1];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:407:	UINT_32 au4AverageQueLen[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:408:	UINT_32 au4CurrentTcResource[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:409:	UINT_32 au4MinReservedTcResource[TC_NUM];	/* The minimum amount of resource no matter busy or idle */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:410:	UINT_32 au4GuaranteedTcResource[TC_NUM];	/* The minimum amount of resource when extremely busy */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:436:	UINT_32 au4QmTcResourceEmptyCounter[MAX_BSS_INDEX][TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/include/nic/que_mgt.h:970:extern const UINT_8 arNetwork2TcResource[HW_BSSID_NUM + 1][NET_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:115:const UINT_8 arNetwork2TcResource[HW_BSSID_NUM + 1][NET_TC_NUM] = {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:280:	for (u4Idx = 0; u4Idx < TC_NUM; u4Idx++)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:285:	for (u4Idx = 0; u4Idx < TC_NUM; u4Idx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:305:	for (u4Idx = 0; u4Idx < TC_NUM; u4Idx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:857:		if (prAdapter->rWifiVar.ucTcRestrict < TC_NUM) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1661:	for (i = 0; i < QM_ACTIVE_TC_NUM; i++)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1670:		INT_32 ai4ExtraQuota[QM_ACTIVE_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1674:		for (i = 0; i < TC_NUM; i++)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1680:		for (i = 0; i < QM_ACTIVE_TC_NUM; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1696:		for (i = 0; i < QM_ACTIVE_TC_NUM; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1711:		for (i = 0; i < TC_NUM; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1752:	for (i = 0; i < QM_ACTIVE_TC_NUM; i++)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1761:		INT_32 ai4ExtraQuota[QM_ACTIVE_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1765:		for (i = 0; i < QM_ACTIVE_TC_NUM; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1781:		for (i = 0; i < QM_ACTIVE_TC_NUM; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1834:	for (u4Tc = 0; u4Tc < QM_ACTIVE_TC_NUM; u4Tc++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1903:		for (u4TcIdx = 0; u4TcIdx < QM_ACTIVE_TC_NUM; u4TcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1965:	INT_32 ai4TcResDemand[QM_ACTIVE_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:1978:	for (u4TcIdx = 0; u4TcIdx < QM_ACTIVE_TC_NUM; u4TcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:2001:			u4ShareCount = (QM_ACTIVE_TC_NUM - 1);	/* excluding TC4 */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:2008:		for (u4TcIdx = 0; u4TcIdx < QM_ACTIVE_TC_NUM; u4TcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:2036:		for (u4TcIdx = 0; u4TcIdx < QM_ACTIVE_TC_NUM; u4TcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:2124:		for (u4Tc = 0; u4Tc < QM_ACTIVE_TC_NUM; u4Tc++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:5070:	for (i = TC0_INDEX; i < TC_NUM; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:5088:	for (i = TC0_INDEX; i < TC_NUM; i++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:5938:	for (u4Idx = 0; u4Idx < TC_NUM; u4Idx++)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:5943:	for (u4Idx = 0; u4Idx < TC_NUM; u4Idx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/que_mgt.c:5963:	for (u4Idx = 0; u4Idx < TC_NUM; u4Idx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:97:static const TX_RESOURCE_CONTROL_T arTcResourceControl[TC_NUM] = {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:118:static const TX_TC_TRAFFIC_SETTING_T arTcTrafficSettings[NET_TC_NUM] = {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:247:		for (ucTC = TC0_INDEX; ucTC < TC_NUM; ucTC++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:370:	if (ucTC >= TC_NUM)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:524:	for (ucIdx = TC0_INDEX; ucIdx < TC_NUM; ucIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:593:	for (ucIdx = TC0_INDEX; ucIdx < TC_NUM; ucIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:630:	if (ucTC >= TC_NUM)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:870:				prMsduInfo->ucTC < TC_NUM) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:970:		for (i = TC_NUM; i >= 0; i--) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:1510:			if (prAdapter->rWifiVar.ucTcRestrict < TC_NUM)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:1539:			if (prAdapter->rWifiVar.ucTcRestrict < TC_NUM)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:2176:		for (u4Num = 0; u4Num < TC_NUM; u4Num++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:2350:	for (ucIdx = TC0_INDEX; ucIdx < TC_NUM; ucIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:2979:	for (ucTcIdx = TC0_INDEX; ucTcIdx < TC_NUM; ucTcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:2984:	if (ucTcIdx < TC_NUM) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/nic/nic_tx.c:3519:		if (prMsduInfo->ucTC >= 0 && prMsduInfo->ucTC < TC_NUM)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/hal_api.c:627:	UINT_32 au4UsedCnt[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/hal_api.c:628:	UINT_32 au4ExtraTxDone[TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/hal_api.c:648:		for (ucTcIdx = TC0_INDEX; ucTcIdx < TC_NUM; ucTcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/hal_api.c:657:	for (ucTcIdx = TC0_INDEX; ucTcIdx < TC_NUM; ucTcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/hal_api.c:719:					ucTcIdx %= TC_NUM;
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/hal_api.c:736:			for (ucTcIdx = TC0_INDEX; ucTcIdx < TC_NUM; ucTcIdx++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/hal_api.c:756:					ucTcIdx %= TC_NUM;
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/sdio/sdio.c:668:	for (ucIdx = TC0_INDEX; ucIdx < TC_NUM; ucIdx++)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/hal_api.c:103:static const UINT_16 arTcToUSBEP[USB_TC_NUM] = {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/hal_api.c:406:	for (ucTc = 0; ucTc < USB_TC_NUM; ++ucTc)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/hal_api.c:596:	for (ucTc = TC0_INDEX; ucTc < USB_TC_NUM; ucTc++) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/include/hif.h:193:#define USB_DBDC1_TC                    (TC_NUM)/* for DBDC1 */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/include/hif.h:194:#define USB_TC_NUM                      (TC_NUM + 1)/* for DBDC1 */
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/include/hif.h:256:	PVOID arTxDataReqHead[USB_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/include/hif.h:265:	UINT_32 u4AggRsvSize[USB_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/include/hif.h:266:	struct list_head rTxDataFreeQ[USB_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/include/hif.h:267:	struct usb_anchor rTxDataAnchor[USB_TC_NUM];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/include/hif.h:289:	BUF_CTRL_T rTxDataBufCtrl[USB_TC_NUM][USB_REQ_TX_DATA_CNT];
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/usb.c:122:const UINT_32 USB_TX_DATA_BUF_SIZE[TC_NUM] = { NIC_TX_PAGE_COUNT_TC0 / (USB_REQ_TX_DATA_CNT - 1),
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/usb.c:846:	for (ucTc = 0; ucTc < USB_TC_NUM; ++ucTc) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/usb.c:912:	for (ucTc = 0; ucTc < USB_TC_NUM; ++ucTc) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/usb.c:1048:	for (ucTc = 0; ucTc < USB_TC_NUM; ++ucTc) {
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/os/linux/hif/usb/usb.c:1147:	for (ucTc = 0; ucTc < USB_TC_NUM; ++ucTc)
+./drivers/misc/mediatek/connectivity/wlan/core/gen4-mt7668/prealloc/prealloc.c:264:			(USB_TC_NUM * USB_REQ_TX_DATA_CNT), USB_TX_DATA_BUFF_SIZE,
+./drivers/net/ethernet/freescale/dpaa/dpaa_eth.c:396:	if (num_tc > DPAA_TC_NUM) {
+./drivers/net/ethernet/freescale/dpaa/dpaa_eth.c:398:			   DPAA_TC_NUM);
+./drivers/net/ethernet/freescale/dpaa/dpaa_eth.h:44:#define DPAA_TC_NUM		4
+./drivers/net/ethernet/freescale/dpaa/dpaa_eth.h:48:#define DPAA_ETH_TXQ_NUM	(DPAA_TC_NUM * DPAA_TC_TXQ_NUM)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:328:#define HCLGE_MAX_TC_NUM		8
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:332:	__le16 tx_pkt_buff[HCLGE_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:337:	__le16 buf_num[HCLGE_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:375:#define HCLGE_TC_NUM_ONE_DESC	4
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:382:	struct hclge_priv_wl tc_wl[HCLGE_TC_NUM_ONE_DESC];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:386:	struct hclge_priv_wl com_thrd[HCLGE_TC_NUM_ONE_DESC];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:412:	struct hclge_tc_thrd tc_thrd[HCLGE_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:417:	struct hclge_priv_buf priv_buf[HCLGE_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:475:#define HCLGE_CFG_TC_NUM_S	8
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:476:#define HCLGE_CFG_TC_NUM_M	GENMASK(15, 8)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_cmd.h:562:	__le16 rss_tc_mode[HCLGE_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1177:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1204:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1285:	for (i = 0; i < HCLGE_TC_NUM_ONE_DESC; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1292:	for (i = 0; i < HCLGE_TC_NUM_ONE_DESC; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1295:			 i + HCLGE_TC_NUM_ONE_DESC,
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1322:	for (i = 0; i < HCLGE_TC_NUM_ONE_DESC; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1329:	for (i = 0; i < HCLGE_TC_NUM_ONE_DESC; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_debugfs.c:1332:			 i + HCLGE_TC_NUM_ONE_DESC,
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:34:#define NEED_RESERVE_TC_NUM	2
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:1297:				      HCLGE_CFG_TC_NUM_M, HCLGE_CFG_TC_NUM_S);
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:1918:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:1950:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:1964:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:1982:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:1999:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2011:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2060:		if (tc_num <= NEED_RESERVE_TC_NUM)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2075:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2091:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2116:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2153:	for (i = HCLGE_MAX_TC_NUM - 1; i >= 0; i--) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2183:	for (i = HCLGE_MAX_TC_NUM - 1; i >= 0; i--) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2221:	if (tc_num <= NEED_RESERVE_TC_NUM)
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2231:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2303:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2344:		for (j = 0; j < HCLGE_TC_NUM_ONE_DESC; j++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2345:			u32 idx = i * HCLGE_TC_NUM_ONE_DESC + j;
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2389:		for (j = 0; j < HCLGE_TC_NUM_ONE_DESC; j++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2390:			tc = &s_buf->tc_thrd[i * HCLGE_TC_NUM_ONE_DESC + j];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:4679:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:5034:	u16 tc_offset[HCLGE_MAX_TC_NUM] = {0};
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:5035:	u16 tc_valid[HCLGE_MAX_TC_NUM] = {0};
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:5036:	u16 tc_size[HCLGE_MAX_TC_NUM] = {0};
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:5043:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:12341:	u16 tc_offset[HCLGE_MAX_TC_NUM] = {0};
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:12343:	u16 tc_size[HCLGE_MAX_TC_NUM] = {0};
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:12346:	u16 tc_valid[HCLGE_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:12363:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm.c:148:	for (i = 0; i < HCLGE_MAX_TC_NUM; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_cmd.h:233:#define HCLGEVF_MAX_TC_NUM		8
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_cmd.h:237:	__le16 rss_tc_mode[HCLGEVF_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_main.c:451:	for (i = 0; i < HCLGEVF_MAX_TC_NUM; i++)
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_main.c:693:	u16 tc_offset[HCLGEVF_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_main.c:694:	u16 tc_valid[HCLGEVF_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_main.c:695:	u16 tc_size[HCLGEVF_MAX_TC_NUM];
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_main.c:706:	for (i = 0; i < HCLGEVF_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/hisilicon/hns3/hns3vf/hclgevf_main.c:713:	for (i = 0; i < HCLGEVF_MAX_TC_NUM; i++) {
+./drivers/net/ethernet/mellanox/mlx5/core/fs_core.c:118:#define KERNEL_NIC_TC_NUM_PRIOS  1
+./drivers/net/ethernet/mellanox/mlx5/core/fs_core.c:119:#define KERNEL_NIC_TC_NUM_LEVELS 3
+./drivers/net/ethernet/mellanox/mlx5/core/fs_core.c:174:				  ADD_MULTIPLE_PRIO(KERNEL_NIC_TC_NUM_PRIOS,
+./drivers/net/ethernet/mellanox/mlx5/core/fs_core.c:175:						    KERNEL_NIC_TC_NUM_LEVELS),
+./drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c:12:#define MLX5_TTC_NUM_GROUPS	3
+./drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c:20:#define MLX5_INNER_TTC_NUM_GROUPS	3
+./drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c:296:	ttc->g = kcalloc(MLX5_TTC_NUM_GROUPS, sizeof(*ttc->g), GFP_KERNEL);
+./drivers/net/ethernet/mellanox/mlx5/core/lib/fs_ttc.c:435:	ttc->g = kcalloc(MLX5_INNER_TTC_NUM_GROUPS, sizeof(*ttc->g),
+./drivers/net/ethernet/ti/cpsw_priv.c:1003:	if (num_tc > CPSW_TC_NUM)
+./drivers/net/ethernet/ti/cpsw_priv.h:124:#define CPSW_TC_NUM			4
+./drivers/net/ethernet/ti/cpsw_priv.h:125:#define CPSW_FIFO_SHAPERS_NUM		(CPSW_TC_NUM - 1)
+./drivers/net/ethernet/ti/cpsw_priv.h:373:	int				fifo_bw[CPSW_TC_NUM];
+./include/linux/mfd/mt6397/rtc.h:65:#define RTC_NUM_YEARS          128

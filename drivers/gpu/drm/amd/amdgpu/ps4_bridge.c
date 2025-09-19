@@ -247,7 +247,7 @@ static void cq_mask(struct i2c_cmdqueue *q, u16 addr, u8 value, u8 mask)
 	*q->p++ = mask;
 }
 
-#if 1
+#if 1 
 static void cq_delay(struct i2c_cmdqueue *q, u16 time)
 {
 	cq_cmd(q, CMD_DELAY);
@@ -523,7 +523,6 @@ static void ps4_bridge_enable(struct drm_bridge *bridge)
 
 		cq_mask(&mn_bridge->cq, 0x1e00, 0x00, 0x21);
 		cq_mask(&mn_bridge->cq, 0x1e02, 0x00, 0x70);
-		// 03 08 01 01 00  2c 01 00
 		cq_delay(&mn_bridge->cq, 0x012c);
 		cq_writereg(&mn_bridge->cq, 0x6020, 0x00);
 		cq_delay(&mn_bridge->cq, 0x0032);
@@ -676,6 +675,14 @@ static const struct drm_display_mode mode_1080p = {
 	.picture_aspect_ratio = HDMI_PICTURE_ASPECT_16_9
 };
 
+/* 63 - 1920x1080@120Hz */
+static const struct drm_display_mode mode_1080p120 = {
+	DRM_MODE("1920x1080", DRM_MODE_TYPE_DRIVER, 297000, 1920, 2008,
+			2052, 2200, 0, 1080, 1084, 1089, 1125, 0,
+		   DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_PVSYNC),
+	  .picture_aspect_ratio = HDMI_PICTURE_ASPECT_16_9
+};
+
 int ps4_bridge_get_modes(struct drm_connector *connector)
 {
 	struct drm_device *dev = connector->dev;
@@ -683,6 +690,9 @@ int ps4_bridge_get_modes(struct drm_connector *connector)
 	pr_info("ps4_bridge_get_modes\n");
 
 	newmode = drm_mode_duplicate(dev, &mode_1080p);
+	drm_mode_probed_add(connector, newmode);
+
+	newmode = drm_mode_duplicate(dev, &mode_1080p120);
 	drm_mode_probed_add(connector, newmode);
 
 	//newmode = drm_mode_duplicate(dev, &mode_720p);
@@ -726,13 +736,13 @@ enum drm_connector_status ps4_bridge_detect(struct drm_connector *connector,
 		return connector_status_disconnected;
 }
 
-int ps4_bridge_mode_valid(struct drm_connector *connector,
-				  struct drm_display_mode *mode)
+enum drm_mode_status ps4_bridge_mode_valid(struct drm_connector *connector,
+				  const struct drm_display_mode *mode)
 {
 	int vic = drm_match_cea_mode(mode);
 
 	/* Allow anything that we can match up to a VIC (CEA modes) */
-	if (!vic || (vic != 16 && vic != 4)) {
+	if (!vic || (vic != 16 && vic != 4 && vic != 63)) {
 		return MODE_BAD;
 	}
 
